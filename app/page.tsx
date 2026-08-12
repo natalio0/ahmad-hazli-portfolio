@@ -1144,6 +1144,31 @@ export default function Home() {
                       Bachelor of Informatics
                     </p>
                   </div>
+                  {/* FOCUS */}
+                  <div className="mt-8 border-t border-white/10 pt-6">
+                    <p className="text-xs tracking-[0.2em] text-white/30">
+                      FOCUS
+                    </p>
+
+                    <div className="mt-3 flex flex-wrap gap-2">
+                      {[
+                        "Software Development",
+                        "UI/UX",
+                        "Artificial Intelligence",
+                        "Database",
+                        "Data Processing",
+                        "Leadership",
+                        "Project Coordination",
+                      ].map((item) => (
+                        <span
+                          key={item}
+                          className="rounded-full border border-white/10 px-3 py-1.5 text-[10px] tracking-wide text-white/40"
+                        >
+                          {item}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
 
                   {/* ORGANIZATIONAL EXPERIENCE */}
                   <div className="mt-8 border-t border-white/10 pt-8">
@@ -1201,32 +1226,6 @@ export default function Home() {
                         coordination across departments and organizational
                         stakeholders.
                       </p>
-                    </div>
-                  </div>
-
-                  {/* FOCUS */}
-                  <div className="mt-8 border-t border-white/10 pt-6">
-                    <p className="text-xs tracking-[0.2em] text-white/30">
-                      FOCUS
-                    </p>
-
-                    <div className="mt-3 flex flex-wrap gap-2">
-                      {[
-                        "Software Development",
-                        "UI/UX",
-                        "Artificial Intelligence",
-                        "Database",
-                        "Data Processing",
-                        "Leadership",
-                        "Project Coordination",
-                      ].map((item) => (
-                        <span
-                          key={item}
-                          className="rounded-full border border-white/10 px-3 py-1.5 text-[10px] tracking-wide text-white/40"
-                        >
-                          {item}
-                        </span>
-                      ))}
                     </div>
                   </div>
                 </div>
