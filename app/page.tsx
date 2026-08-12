@@ -1144,6 +1144,7 @@ export default function Home() {
                       Bachelor of Informatics
                     </p>
                   </div>
+
                   {/* FOCUS */}
                   <div className="mt-8 border-t border-white/10 pt-6">
                     <p className="text-xs tracking-[0.2em] text-white/30">
@@ -1211,7 +1212,7 @@ export default function Home() {
                       </div>
 
                       <h4 className="mt-4 text-xl font-medium">
-                        Secretary to the Coordinating Minister
+                        Secretary of Coordinating Minister
                       </h4>
 
                       <p className="mt-2 text-sm text-white/40">
@@ -1226,6 +1227,57 @@ export default function Home() {
                         coordination across departments and organizational
                         stakeholders.
                       </p>
+                      {/* CREATIVE ASSOCIATION — LTW */}
+                      <div className="mt-8 border-t border-white/10 pt-8">
+                        <div className="flex items-start justify-between gap-4">
+                          <p className="text-xs text-white/30">2023</p>
+
+                          <span className="text-xs text-white/20">
+                            ASSOCIATION
+                          </span>
+                        </div>
+
+                        <h4 className="mt-4 text-xl font-medium">
+                          Creative Association
+                        </h4>
+
+                        <p className="mt-2 text-sm text-white/40">
+                          LTW (LinkToWork) · MagnaPartner
+                        </p>
+
+                        <p className="mt-4 text-sm leading-7 text-white/40">
+                          Contributed to creative activities and collaborative
+                          initiatives within LTW (LinkToWork), working alongside
+                          MagnaPartner to support creative projects,
+                          communication, and professional collaboration.
+                        </p>
+                      </div>
+                      {/* CONTENT CREATOR LEAD — INFORMATICS */}
+                      <div className="mt-8 border-t border-white/10 pt-8">
+                        <div className="flex items-start justify-between gap-4">
+                          <p className="text-xs text-white/30">2023</p>
+
+                          <span className="text-xs text-white/20">
+                            LEADERSHIP
+                          </span>
+                        </div>
+
+                        <h4 className="mt-4 text-xl font-medium">
+                          Content Creator Lead
+                        </h4>
+
+                        <p className="mt-2 text-sm text-white/40">
+                          Informatics Study Program · Telkom University Surabaya
+                        </p>
+
+                        <p className="mt-4 text-sm leading-7 text-white/40">
+                          Led the Informatics study program&apos;s content
+                          creator team, coordinating content planning, creative
+                          production, and digital communication to support the
+                          program&apos;s events, activities, and online
+                          presence.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
