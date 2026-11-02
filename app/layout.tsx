@@ -26,6 +26,10 @@ const personJsonLd = {
   "@type": "Person",
   name: "Ahmad Hazli Yahya",
   url: "https://ahmad-hazli-portfolio.vercel.app/",
+  sameAs: [
+    "https://github.com/natalio0",
+    "https://www.linkedin.com/in/ahmadhazlii",
+  ],
   description:
     "Informatics graduate from Telkom University, Indonesia, with experience in software development, digital products, UI/UX design, and creative production.",
   alumniOf: {
