@@ -12,10 +12,14 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Ahmad Hazli — Informatics, Creative & Technology",
   description:
     "Portfolio of Ahmad Hazli — Informatics graduate, developer, and creative professional focused on software, digital products, and visual experiences.",
+  verification: {
+    google:
+      "google-site-verification=HA1flzK4e0ZE8OyHTAcgbmvTWiacrVIFgUUuu4nI0_8",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
