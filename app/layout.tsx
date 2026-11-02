@@ -21,13 +21,40 @@ export const metadata: Metadata = {
   },
 };
 
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Ahmad Hazli Yahya",
+  url: "https://ahmad-hazli-portfolio.vercel.app/",
+  description:
+    "Informatics graduate from Telkom University, Indonesia, with experience in software development, digital products, UI/UX design, and creative production.",
+  alumniOf: {
+    "@type": "CollegeOrUniversity",
+    name: "Telkom University",
+  },
+  knowsAbout: [
+    "Software Development",
+    "Digital Products",
+    "UI/UX Design",
+    "Creative Production",
+  ],
+};
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(personJsonLd),
+          }}
+        />
+        {children}
+      </body>
     </html>
   );
 }
