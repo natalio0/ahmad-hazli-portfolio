@@ -13,9 +13,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ahmad Hazli Yahya | Informatics Graduate & Creative Developer",
+  title: "Ahmad Hazli Yahya — Informatics, Creative & Technology",
   description:
     "Ahmad Hazli Yahya is an Informatics graduate from Telkom University, Indonesia, with experience in software development, digital products, UI/UX design, and creative production.",
+  openGraph: {
+    title: "Ahmad Hazli Yahya — Informatics, Creative & Technology",
+    description:
+      "Portfolio of Ahmad Hazli Yahya — Informatics graduate, developer, and creative professional.",
+    url: "https://ahmad-hazli-portfolio.vercel.app/",
+    siteName: "Ahmad Hazli Yahya",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ahmad Hazli Yahya — Informatics, Creative & Technology",
+    description:
+      "Portfolio of Ahmad Hazli Yahya — Informatics graduate, developer, and creative professional.",
+  },
   verification: {
     google: "HA1flzK4e0ZE8OyHTAcgbmvTWiacrVIFgUUuu4nI0_8",
   },
