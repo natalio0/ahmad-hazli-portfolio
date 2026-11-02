@@ -13,12 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ahmad Hazli — Informatics, Creative & Technology",
+  title: "Ahmad Hazli Yahya | Informatics Graduate & Creative Developer",
   description:
-    "Portfolio of Ahmad Hazli — Informatics graduate, developer, and creative professional focused on software, digital products, and visual experiences.",
+    "Ahmad Hazli Yahya is an Informatics graduate from Telkom University, Indonesia, with experience in software development, digital products, UI/UX design, and creative production.",
   verification: {
-    google:
-      "google-site-verification=HA1flzK4e0ZE8OyHTAcgbmvTWiacrVIFgUUuu4nI0_8",
+    google: "HA1flzK4e0ZE8OyHTAcgbmvTWiacrVIFgUUuu4nI0_8",
   },
 };
 
