@@ -195,7 +195,7 @@ export default function Home() {
               <h1 className="max-w-5xl text-[3.5rem] font-medium leading-[0.9] tracking-[-0.06em] sm:text-7xl lg:text-[7.5rem]">
                 Ahmad
                 <br />
-                <span className="text-white/30">Hazli.</span>
+                <span className="text-white/30">Hazli Yahya.</span>
               </h1>
 
               <p className="mt-8 max-w-xl text-base leading-7 text-white/50 sm:mt-10 sm:text-xl sm:leading-8">
